@@ -1,0 +1,13 @@
+# Core YOLO framework (includes YOLOv8 and YOLO11 classification support)
+ultralytics>=8.3.0
+
+# Image handling (headless build: no GUI dependencies, safe for servers/Docker)
+opencv-python-headless>=4.9.0
+
+# Image I/O
+pillow>=10.0.0
+
+# Deep learning backend (default PyPI wheels work on CPU and CUDA machines;
+# for a specific CUDA build, see https://pytorch.org/get-started/locally/)
+torch>=2.2.0
+torchvision>=0.17.0
